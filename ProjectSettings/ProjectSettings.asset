@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 96006551657e92d48b36a9eade3cf288
+  productGUID: c883846d78307f0468fffe255b349788
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -84,7 +84,6 @@ PlayerSettings:
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
-  audioSpatialExperience: 0
   deferSystemGesturesMode: 0
   hideHomeButton: 0
   submitAnalytics: 1
@@ -755,10 +754,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 90002ccf-edfe-4a62-8d38-0c3b0ae18c1d
+  cloudProjectId: b2615102-cab4-4064-ae23-3a12d1e93ce0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: TeamL-plateau-game
+  projectName: TeamL-plateau-game 2024-10-23_19-37-35
   organizationId: autumn28
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
