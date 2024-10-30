@@ -5,6 +5,7 @@
     "**/.vs": true,
     "**/.gitmodules": true,
     "**/.vsconfig": true,
+    "**/.gitmodules": true,
     "**/*.booproj": true,
     "**/*.pidb": true,
     "**/*.suo": true,
@@ -53,6 +54,7 @@
     "logs/": true,
     "ProjectSettings/": true,
     "UserSettings/": true,
+    "ProjectSettings/": true,
     "temp/": true,
     "Temp/": true
   },
