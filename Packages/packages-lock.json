@@ -8,7 +8,7 @@
       "url": "https://packages.unity.com"
     },
     "com.synesthesias.plateau-unity-sdk": {
-      "version": "file:C:/Users/aki/Downloads/PLATEAU-SDK-for-Unity-v3.0.1-alpha.tgz",
+      "version": "file:C:/Users/aki/Downloads/PLATEAU-SDK-for-Untiy-v3.0.0.1.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -75,10 +75,6 @@
       "version": "2.3.1",
       "depth": 0,
       "source": "registry",
-    "com.unity.collab-proxy": {
-      "version": "2.5.2",
-      "depth": 0,
-      "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
@@ -92,7 +88,6 @@
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
-      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -124,7 +119,6 @@
     "com.unity.ide.rider": {
       "version": "3.0.28",
       "depth": 0,
-      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
@@ -134,7 +128,6 @@
     "com.unity.ide.visualstudio": {
       "version": "2.0.22",
       "depth": 0,
-      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
@@ -171,6 +164,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.performance.profile-analyzer": {
+      "version": "1.2.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.purchasing": {
       "version": "4.11.0",
       "depth": 0,
@@ -182,17 +182,11 @@
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
       },
-    "com.unity.performance.profile-analyzer": {
-      "version": "1.2.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
       "version": "14.0.11",
       "depth": 1,
-      "depth": 2,
       "source": "builtin",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
@@ -248,6 +242,8 @@
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.modules.unitywebrequest": "1.0.0"
       },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.settings-manager": {
       "version": "2.0.1",
       "depth": 2,
@@ -266,7 +262,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.1.33",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6",
@@ -315,13 +311,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.10",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.vr": "1.0.0",
-        "com.unity.modules.xr": "1.0.0"
     "com.unity.visualscripting": {
       "version": "1.9.4",
       "depth": 0,
@@ -577,4 +566,3 @@
     }
   }
 }
-

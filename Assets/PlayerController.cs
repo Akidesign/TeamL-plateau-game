@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float moveSpeed = 10f;
+    public float moveSpeed = 1f;
 
     [Header("Debug")]
     public bool showDebugInfo = false;
