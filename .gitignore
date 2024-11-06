@@ -74,6 +74,7 @@ crashlytics-build.properties
 .unity
 .unity.meta
 Packages/manifest.json
+Packages/Packages-lock.json
 Assets/StreamingAssets
 Assets/Scenes
 PlayerAssets
