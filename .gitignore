@@ -74,4 +74,5 @@ crashlytics-build.properties
 /Assets/SEMA Game Studio
 *.meta
 manifest.json
+packages-lock.json
 /Assets/TextMesh Pro
