@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class DistanceBasedVisibility : MonoBehaviour
 {
     public Transform Player;              // プレイヤーのTransform
-    public GameObject chiyodaCity;        // 親オブジェクト
+    public GameObject yokohamaCity;        // 親オブジェクト
     public float activationDistance = 10f; // オブジェクトが再表示される距離
 
     [Header("Debug Options")]
@@ -31,7 +31,7 @@ public class DistanceBasedVisibility : MonoBehaviour
         objectVisibility = new Dictionary<GameObject, bool>();
         objectBounds = new Dictionary<GameObject, Bounds>();
 
-        foreach (Transform child in chiyodaCity.transform)
+        foreach (Transform child in yokohamaCity.transform)
         {
             if (!IsTargetObj(child)) continue;
 
