@@ -68,13 +68,14 @@ crashlytics-build.properties
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
-
-.unity
-.unity.meta
-Packages/manifest.json
-Packages/packages-lock.json
-Assets/StreamingAssets
-Assets/Scenes
+/[Aa]ssets/[Ss]treamingAssets/
+/Assets/Scenes
+*.unity
+/Assets/SEMA Game Studio
+*.meta
+manifest.json
+packages-lock.json
+/Assets/TextMesh Pro
 PlayerAssets
+.DS_Store
+
