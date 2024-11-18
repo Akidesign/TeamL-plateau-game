@@ -6,11 +6,11 @@ public class LocationUpdater : MonoBehaviour
     public float IntervalSeconds = 5.0f;  // 更新間隔
     public LocationServiceStatus Status;  // 位置情報の状態
     public LocationInfo Location;  // 位置情報
-    public float PlaneX, PlaneY;  // 平面直交座標
+    public float PlaneX, PlaneY, PlaneZ;  // 平面直交座標
 
     // 変換用の基準緯度経度
-    private const double originLatitude = 36.0;
-    private const double originLongitude = 139.83333333333;
+    private const double originLatitude = 35.4542721457147;
+    private const double originLongitude = 139.632808349688;
 
     IEnumerator Start()
     {
@@ -38,6 +38,7 @@ public class LocationUpdater : MonoBehaviour
                         // 座標を保持
                         this.PlaneX = (float)x;
                         this.PlaneY = (float)y;
+                        this.PlaneZ = this.Location.altitude;
                         break;
 
                     default:
