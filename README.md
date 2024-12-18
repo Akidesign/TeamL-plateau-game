@@ -39,5 +39,18 @@ PLATEAU（国土交通省が提供する3D都市モデル）を活用した、�
 - アセット：[Modular Cute Fantasy Character Pack #1](https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/modular-cute-fantasy-character-pack-1-293865)
 
 ## ライセンス
-このプロジェクトは[ライセンス名不明]のもとで公開されています
-PLATEAUのデータは国土交通省によって提供され、[PLATEAU Site Policy](https://www.mlit.go.jp/plateau/site-policy/)に従います
+
+このプロジェクトは以下のライセンスに従います：
+
+### プロジェクトのライセンス
+MIT License
+
+### 使用データのライセンス
+- PLATEAU（3D都市モデル）のデータ
+  - 提供：国土交通省
+  - ライセンス：[PLATEAU Site Policy](https://www.mlit.go.jp/plateau/site-policy/)
+  - データ出典：国土交通省 PLATEAU（3D都市モデル）
+
+### 使用アセット
+- [Modular Cute Fantasy Character Pack 1](https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/modular-cute-fantasy-character-pack-1-293865)
+  - Asset Storeのライセンスに従う
