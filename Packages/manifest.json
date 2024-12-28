@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.synesthesias.plateau-unity-sdk": "file:C:/Users/aki/Downloads/PLATEAU-SDK-for-Unity-v3.0.1-alpha (1).tgz",
+    "com.synesthesias.plateau-unity-sdk": "file:C:/Users/aki/Downloads/PLATEAU-SDK-for-Unity-v3.0.1-alpha.tgz",
     "com.unity.textmeshpro": "3.0.9",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

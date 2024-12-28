@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class DistanceBasedVisibility : MonoBehaviour
 {
     public Transform Player;              // プレイヤーのTransform
-    public GameObject yokohamaCity;        // 親オブジェクト
+    public GameObject yokohamaCity;      // 親オブジェクト
     public float activationDistance = 10f; // オブジェクトが再表示される距離
 
     [Header("Debug Options")]
@@ -49,7 +49,7 @@ public class DistanceBasedVisibility : MonoBehaviour
         }
         Debug.Log($"Initialized {objectBounds.Count} objects with bounds calculations");
     }
-
+    
     private Bounds GetWorldBounds(MeshRenderer renderer)
     {
         return renderer.bounds;

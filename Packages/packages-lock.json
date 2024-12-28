@@ -8,7 +8,7 @@
       "url": "https://packages.unity.com"
     },
     "com.synesthesias.plateau-unity-sdk": {
-      "version": "file:C:/Users/aki/Downloads/PLATEAU-SDK-for-Unity-v3.0.1-alpha (1).tgz",
+      "version": "file:C:/Users/aki/Downloads/PLATEAU-SDK-for-Unity-v3.0.1-alpha.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
